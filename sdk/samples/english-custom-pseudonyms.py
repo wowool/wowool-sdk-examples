@@ -9,7 +9,7 @@ from json import dumps
 english = Pipeline("english,entity")
 document = english("John Smith works for Ikea.")
 pseudonyms = {
-    "Person": ["Badman"],
+    "Person": ["Batman"],
     "Company": ["Monster Inc."],
 }
 writer = DefaultWriter(pseudonyms)

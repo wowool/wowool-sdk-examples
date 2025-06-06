@@ -11,4 +11,5 @@ wowool-quotes
 wowool-numbers
 wowool-snippet
 wowool-sentiments
+wowool-chunks
 
