@@ -1,5 +1,6 @@
 from subprocess import run
 from pathlib import Path
+from rich import print
 
 
 def run_all(repo_path: Path):
@@ -8,7 +9,7 @@ def run_all(repo_path: Path):
     """
     for fn in repo_path.glob("sdk/samples/*.py"):
         print(f"Running script: {fn}")
-        print("-" * 40)
+        print("[blue ]----------------------------------------------")
         run(["python", str(fn)], check=True)
 
 
