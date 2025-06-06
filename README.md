@@ -1,8 +1,9 @@
 # Wowool Examples
 
-This repo has examples on how to use the wowool sdk by the use examples.
+This repo contains examples on how to use the Wowool SDK.
 
-Note: you need to request a eval lic at phforest@wowool.com we will happily give one.
+Note: You need to request an evaluation license at philippe@wowool.com. We will happily provide one.
+
 
 ## Install
 
@@ -17,7 +18,7 @@ Then set the environment variables:
 
 ## Running
 
-Now you can start running the samples. As a example:
+Now you can start running the samples. For example:
 
     python sdk/samples/english-entities.py
 
