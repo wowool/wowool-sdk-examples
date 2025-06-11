@@ -9,6 +9,8 @@ doc = english_analysis(text)
 print(doc)
 # store the document as a json object/or string
 doc_serialized_json_str = json.dumps(doc.to_json())
+# display the serialized document
+print(json.dumps(doc.to_json(), indent=2))
 # store to database
 #  --------------------------------------------------------
 # load from database
