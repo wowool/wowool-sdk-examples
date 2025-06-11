@@ -12,5 +12,6 @@ wowool-numbers
 wowool-snippet
 wowool-sentiments
 wowool-chunks
+wowool-generic
 rich
 
