@@ -1,0 +1,5 @@
+lexicon: {
+    Ikea,
+} =MyCompanyLexicon@(sector="furniture");
+
+rule:{ "Ikea" } = MyCompanyRule;

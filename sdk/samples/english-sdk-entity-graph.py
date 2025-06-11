@@ -4,7 +4,7 @@ from wowool.utility.diagnostics import print_diagnostics
 import json
 
 text = "John Smith works for Ikea, he visited Jysk in Sweden. Bella Johansson is also working for Jysk."
-pipeline = Pipeline("english,entity")
+pipeline = Pipeline("english,syntax,entity")
 # defines a relationship: from "Person" to "Company" with the relation "VP".
 grapher = EntityGraph(
     links=[
