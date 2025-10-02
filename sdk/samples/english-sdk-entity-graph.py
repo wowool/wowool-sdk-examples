@@ -17,7 +17,8 @@ grapher = EntityGraph(
 )
 doc = pipeline(text)
 doc = grapher(doc)
-if doc.results("wowool_entity_graph"):
-    print(json.dumps(doc.results("wowool_entity_graph"), indent=2))
+if doc.entity_graph:
+    for link in doc.entity_graph:
+        print(f"Link: {link.from_} -> ({link.relation}) ->  {link.to}")
 else:
     print_diagnostics(doc)
