@@ -1,16 +1,17 @@
 from subprocess import run
 from pathlib import Path
 from rich import print
+from sys import executable
 
 
 def run_all(repo_path: Path):
     """
     Run all scripts in the specified repository path.
     """
-    for fn in repo_path.glob("sdk/samples/*.py"):
+    for fn in repo_path.glob("sdk/samples/**/*.py"):
         print(f"Running script: {fn}")
         print("[blue ]----------------------------------------------")
-        run(["python", str(fn)], check=True)
+        run([executable, str(fn)], check=True)
 
 
 if __name__ == "__main__":

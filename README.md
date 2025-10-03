@@ -12,10 +12,11 @@ First, install the dependencies:
     pip install -r requirements.txt
 
 
-Next, set the environment variables:
+Next, set the environment variables, you can request a key by logging in and generating one. 
+The samples are coded to use with the SDK and not the Cloud version.
 
     export WOWOOL_SDK_KEY=[wowool_key]
-    export WOWOOL_SDK_PRIVATE_KEY="[wowool_private_key]"
+    
 
 ## Running the examples
 

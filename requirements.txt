@@ -14,4 +14,4 @@ wowool-sentiments
 wowool-chunks
 wowool-generic
 rich
-
+pandas
